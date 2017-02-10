@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+  android:focusable="true"
+        android:baselineAligned="false" 
+            android:paddingBottom="1dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="1dp"  
+     android:background="@color/background"
+        >
+
+            <TextView
+                android:id="@+id/doctorName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginLeft="2dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text" />
+
+
+            <TextView
+                android:id="@+id/doctorQualification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              android:layout_marginLeft="2dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:textColor="@color/text" />
+  			<TextView
+                android:id="@+id/doctorSpecialization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              android:layout_marginLeft="2dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                android:textColor="@color/text" />
+
+</LinearLayout>

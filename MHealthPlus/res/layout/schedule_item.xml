@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    >
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        >
+        <com.lucentinsight.mclinicplus.view.RoundedLetterView
+            android:id="@+id/day"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            app:rlv_backgroundColorValue="@color/SkyBlue"
+            app:rlv_titleColor="@android:color/black"
+            app:rlv_titleSize="@dimen/header_text"
+            app:rlv_titleText="A" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/timeContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        >
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/nameContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        >
+    </LinearLayout>
+</LinearLayout>

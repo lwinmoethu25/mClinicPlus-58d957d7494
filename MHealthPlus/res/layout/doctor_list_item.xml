@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8dp"
+    android:layout_marginBottom="6dp"
+    android:background="@color/background_gray"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/header_text"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_marginTop="2dp"
+        android:id="@+id/qualification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/normal_text"
+        android:textColor="@color/darkgray"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_marginTop="2dp"
+        android:id="@+id/specialization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/normal_text"
+        android:textColor="@color/darkgray"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+
+
+
+<FrameLayout
+        android:layout_marginTop="6dp"
+        android:background="@color/lightgray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <HorizontalScrollView
+            android:id="@+id/hsv"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/scheduleContainer"
+                android:orientation="horizontal"
+                android:background="@color/lightgray"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+        </HorizontalScrollView>
+    </FrameLayout>
+</LinearLayout>

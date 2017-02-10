@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.lucentinsight.mclinicplus.activity.MainActivity">
+
+    <EditText
+        android:id="@+id/search"
+        android:drawableLeft="@drawable/search"
+        android:layout_width="match_parent"
+        android:background="@drawable/textbox_normal"
+        android:paddingLeft="8dp"
+        android:drawablePadding="6dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_height="40dp"
+        android:textSize="@dimen/big_text"
+        android:singleLine="true"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:hint="@string/search_doctor"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@android:color/transparent"/>
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/darkgray"
+        android:textSize="@dimen/big_text"
+        app:pstsIndicatorColor="@color/SkyBlue"
+        android:background="@color/lightgray"
+        app:pstsIndicatorHeight="5dp"
+        app:pstsShouldExpand="true"
+        app:pstsTextAlpha="1.0"
+        app:pstsTextStyle="normal"
+        app:pstsTextSelectedStyle="normal"
+        />
+    <com.lucentinsight.mclinicplus.view.CustomViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        />
+
+
+</LinearLayout>

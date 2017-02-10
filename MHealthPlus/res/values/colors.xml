@@ -1,0 +1,18 @@
+
+    <resources>
+        <color name="SkyBlue">#82cbff</color>
+        <color name="gray">#FFB682</color>
+        <color name="lightgray">#B6B6B6</color>
+        <color name="darkgray">#727272</color>
+        <color name="background">#FAB0CC</color>
+        <color name="text">#000000</color>
+        <!--<color name="actionbar">#FDDEEA</color>-->
+        <color name="actionbar">#FFFFFF</color>
+         <color name="pink">#FF2FB1</color>
+        <color name="wiite">#FFFCFE</color>
+        <color name="pink2">#FF9FE3</color>
+        <color name="greytxet">#8A8888</color>
+        <color name="background_gray">#EEEEEE</color>
+        <color name="blue">#5589D5</color>
+
+    </resources>
